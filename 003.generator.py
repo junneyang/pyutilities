@@ -21,9 +21,6 @@ def GeneratorTest():
 if __name__ == "__main__":
     g = GeneratorTest()
     print [g.next() for i in xrange(10)]
-    a = 1
-    b = 1
-    print a is b
-    a = "Hello"
-    b = "Hello"
-    print a is b
+
+
+

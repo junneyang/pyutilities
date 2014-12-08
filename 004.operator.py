@@ -31,6 +31,12 @@ if __name__ == "__main__":
     print g(4)
 
     #基本数据类型==运算符已经重载
+    a = 1
+    b = 1
+    print a is b
+    a = "Hello"
+    b = "Hello"
+    print a is b
     a = [1,2,3]
     b = [1,2,3]
     print a is b
