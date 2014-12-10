@@ -31,3 +31,25 @@ a = myfunc(10, 20)
 print a
 a = myfunc(20, 30)
 print a
+
+import threading
+mutex = threading.Lock()
+
+def singletondeco(cls):
+    instances = {}
+    def getInstance():
+        if cls not in instances:
+            mutex.acquire()
+            if cls not in instances:
+                instances[cls] = cls()
+            mutex.release()
+        return instances[cls]
+    return getInstance
+
+@singletondeco
+class SingletonClass(object):
+    pass
+
+s1 = SingletonClass()
+s2 = SingletonClass()
+print s1 is s2

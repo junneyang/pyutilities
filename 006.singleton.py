@@ -29,7 +29,11 @@ class Singleton(object):
             Singleton.__lock.release()
         return Singleton.__instance
 
+
+
 if __name__ == '__main__':
     s1 = Singleton().getInstance()
     s2 = Singleton().getInstance()
     print s1 is s2
+
+
