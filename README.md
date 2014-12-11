@@ -10,3 +10,5 @@ python utilities
 * 004.operator.py  : 元素安抚重载。
 * 005.decorator.py : 装饰器使用。
 * 006.singleton.py : python实现线程安全的单例模式。
+* 007.getfilemd5.py: python获取文件md5（包括大文件）。
+
