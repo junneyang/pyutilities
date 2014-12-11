@@ -11,4 +11,6 @@ python utilities
 * 005.decorator.py : 装饰器使用。
 * 006.singleton.py : python实现线程安全的单例模式。
 * 007.getfilemd5.py: python获取文件md5（包括大文件）。
+* 008.fileparse.py : python解析文件（带编码格式转换）。
+* 009.filemodify.py: python操作大文件。
 
