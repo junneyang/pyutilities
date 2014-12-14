@@ -14,5 +14,3 @@ python utilities
 * 008.fileparse.py    : python解析文件（带编码格式转换）。
 * 009.filemodify.py   : python操作大文件。
 * 010.filereplace.py  : 文件替换。
-
-
